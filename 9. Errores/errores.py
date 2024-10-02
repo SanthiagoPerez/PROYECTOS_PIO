@@ -7,3 +7,4 @@ while True:
     except Exception as e:
         print(f"Dato no valido: {e}")
         print("Intenta de nuevo")
+        
