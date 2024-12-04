@@ -1,13 +1,33 @@
+body {
+  background-color:gainsboro;
+}
+
 @font-face {
     font-family: myFirstFont;
-    src: url(/GOLITO/LIBRERIAS/static/DynaPuff-Bold.ttf);
+    src: url(/GOLITO/LIBRERIAS/static/DynaPuff-Bold.ttf);   
 }
   
 .letra {
     font-family: myFirstFont;
 }
 
+@font-face{
+    font-family: mySecondFont;
+    src: url(/GOLITO/LIBRERIAS/static/Oswald-SemiBold.ttf);
+}
+
+.nombre{
+    color:black;
+    font-family: mySecondFont;
+}
+
   main {
-    height: 430px;
+    height: auto;
   }
+
+.carousel img {
+  width: 50%; /* Ajusta el ancho al 80% del contenedor */
+  max-width: 50%; /* Evita que la imagen sobrepase el contenedor */
+  margin: 0 auto; /* Centra la imagen */
+}
 

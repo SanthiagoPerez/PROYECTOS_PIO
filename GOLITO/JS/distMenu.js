@@ -50,3 +50,20 @@ $(document).ready(function(){
         }
     }); 
 });
+
+function abrirInformacion() {
+    document.getElementById("miModal").style.display = "block";
+}
+
+// Función para cerrar el modal
+function cerrarModal() {
+    document.getElementById("miModal").style.display = "none";
+}
+
+// Cerrar el modal al hacer clic fuera del contenido
+window.onclick = function(event) {
+    var modal = document.getElementById("miModal");
+    if (event.target == modal) {
+        modal.style.display = "none";
+    }
+}
